@@ -1,0 +1,15 @@
+{
+  "name": "2.4_lesson-javascript",
+  "version": "1.0.0",
+  "description": "First code in JavaScript",
+  "main": "script.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunnatbek Qadamov",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
