@@ -101,4 +101,4 @@ animation();
 
 let name = prompt("Please enter your name to continue: ")
 
-document.getElementById('text').textContent="Hello ${name}"
+document.getElementById('text').textContent=`Hello ${name}`
